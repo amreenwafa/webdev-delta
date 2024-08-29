@@ -1,0 +1,8 @@
+.one{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: pink;
+    display: inline-block;
+}
+
