@@ -1,0 +1,40 @@
+#container {
+    width: 400px;
+    height: 400px;
+    background-color: blanchedalmond;
+    border-radius: 2px;
+    border: 2px solid black;
+    display: flex; /* Makes this a flex container */
+    flex-direction: row; /* Arrange items in a row */
+    flex-wrap: wrap;  /* Allow items to wrap onto the next line */
+    justify-content: space-evenly;
+    align-content: centers;
+    gap: 10px; /* 20px vertical gap and 10px horizontal gap */
+    /*padding: 40px;  /* Add padding inside the container */
+    align-content: space-around;  /*property is used in Flexbox to control how rows of flex items are distributed within the container when there is extra space on the cross axis (usually the vertical axis when flex-direction is set to row).*/
+
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border-radius: 15px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.navbar{
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+
+}
+
+h1{
+   height: 50px;
+   width: 80px;
+   font-size: 24px ;
+}
