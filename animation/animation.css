@@ -2,4 +2,65 @@
     width: 300px;
     height: 100px;
     background-color: pink;
+
+    /*animation-name: backgroundcolor;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;*/
+    animation: backgroundcolor 2s ease-in infinite normal ;
 }
+
+
+/*@keyframes fontAnimation {
+    from{
+        font-size: 20px;
+    }
+
+    to{
+        font-size: 40px;
+    }
+}*/
+
+
+@keyframes backgroundcolor { 
+    0%{
+        background-color: blueviolet;
+    }
+
+    20%{
+        background-color: greenyellow ;
+    }
+
+    40%{
+        background-color: red;
+    }
+ 
+    80%{
+        background-color: black;
+    }
+    
+    100%{
+        background-color: aqua;
+    }
+    
+}
+
+/* to applay multile css */
+
+/*@keyframes backgroundcolor {
+    from{
+        background-color: blueviolet;
+        font-size: 20px;
+        width: 100px;
+    }
+
+    to{
+        background-color: greenyellow ;
+        font-size: 40px;
+        border-radius: 12px;
+        width: 400px;
+    }
+    
+}*/
