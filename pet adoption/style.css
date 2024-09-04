@@ -1,0 +1,28 @@
+h2{
+    color: red;
+}
+
+h1{
+    font-size: bold;
+}
+
+#pets{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+img{
+    width: 100px;
+    background-size: contain cover auto;  
+}
+
+span{
+    color: brown;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 15px;
+    position: relative;
+}
